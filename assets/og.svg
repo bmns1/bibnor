@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <!-- Authored square so macOS thumbnailing renders 1:1; the social card is
+       the centre 1200x630 band, cropped out at build time into og.png. -->
+  <defs>
+    <radialGradient id="bloom" cx="72%" cy="50%" r="52%">
+      <stop offset="0%" stop-color="#16382A"/>
+      <stop offset="100%" stop-color="#0E1F17"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="13" cy="13" r="1.3" fill="#F1EEDD" opacity="0.11"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="1200" fill="#0E1F17"/>
+  <g transform="translate(0 285)">
+    <rect width="1200" height="630" fill="url(#bloom)"/>
+    <rect width="1200" height="630" fill="url(#dots)"/>
+
+    <g transform="translate(812 195) scale(1.95)">
+      <g stroke="#E8A33D" stroke-width="2.4" stroke-linecap="round" opacity="0.5">
+        <line x1="32" y1="18" x2="74" y2="18"/>
+        <line x1="74" y1="18" x2="88" y2="32"/><line x1="88" y1="32" x2="88" y2="46"/><line x1="88" y1="46" x2="74" y2="60"/>
+        <line x1="74" y1="60" x2="32" y2="60"/>
+        <line x1="32" y1="18" x2="32" y2="102"/>
+        <line x1="74" y1="60" x2="88" y2="74"/><line x1="88" y1="74" x2="88" y2="88"/><line x1="88" y1="88" x2="74" y2="102"/>
+        <line x1="74" y1="102" x2="32" y2="102"/>
+      </g>
+      <g fill="#E8A33D">
+        <circle cx="32" cy="18" r="4.4"/><circle cx="46" cy="18" r="4.4"/><circle cx="60" cy="18" r="4.4"/><circle cx="74" cy="18" r="4.4"/>
+        <circle cx="32" cy="32" r="4.4"/><circle cx="88" cy="32" r="4.4"/>
+        <circle cx="32" cy="46" r="4.4"/><circle cx="88" cy="46" r="4.4"/>
+        <circle cx="32" cy="60" r="4.4"/><circle cx="46" cy="60" r="4.4"/><circle cx="60" cy="60" r="4.4"/><circle cx="74" cy="60" r="4.4"/>
+        <circle cx="32" cy="74" r="4.4"/><circle cx="88" cy="74" r="4.4"/>
+        <circle cx="32" cy="88" r="4.4"/><circle cx="88" cy="88" r="4.4"/>
+        <circle cx="32" cy="102" r="4.4"/><circle cx="46" cy="102" r="4.4"/><circle cx="60" cy="102" r="4.4"/><circle cx="74" cy="102" r="4.4"/>
+      </g>
+    </g>
+
+    <g font-family="Avenir Next, 'Century Gothic', Helvetica, Arial, sans-serif">
+      <text x="84" y="176" font-family="'SF Mono', Menlo, monospace" font-size="18" font-weight="600" letter-spacing="4.2" fill="#E8A33D">AI-BUILT SCHOOL SYSTEMS</text>
+      <text x="84" y="268" font-size="54" font-weight="800" letter-spacing="-1.6" fill="#F1EEDD">Every school</text>
+      <text x="84" y="330" font-size="54" font-weight="800" letter-spacing="-1.6" fill="#F1EEDD">runs differently.</text>
+      <text x="84" y="392" font-size="54" font-weight="800" letter-spacing="-1.6" fill="#9FAE9C">So should its software.</text>
+      <text x="86" y="486" font-family="'SF Mono', Menlo, monospace" font-size="20" font-weight="600" letter-spacing="1.1" fill="#8FA08E">bibnor · info@bibnor.com</text>
+    </g>
+  </g>
+</svg>

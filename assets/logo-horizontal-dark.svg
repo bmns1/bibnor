@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120">
+  <g id="icon">
+    <rect x="0" y="0" width="120" height="120" rx="26" fill="#12241B"/>
+    <g fill="#F1EEDD" opacity="0.18">
+      <circle cx="46" cy="32" r="1.6"/><circle cx="60" cy="32" r="1.6"/><circle cx="74" cy="32" r="1.6"/>
+      <circle cx="46" cy="46" r="1.6"/><circle cx="60" cy="46" r="1.6"/><circle cx="74" cy="46" r="1.6"/>
+      <circle cx="46" cy="74" r="1.6"/><circle cx="60" cy="74" r="1.6"/><circle cx="74" cy="74" r="1.6"/>
+      <circle cx="46" cy="88" r="1.6"/><circle cx="60" cy="88" r="1.6"/><circle cx="74" cy="88" r="1.6"/>
+      <circle cx="88" cy="18" r="1.6"/><circle cx="88" cy="60" r="1.6"/><circle cx="88" cy="102" r="1.6"/>
+    </g>
+    <g stroke="#E8A33D" stroke-width="2.2" stroke-linecap="round" opacity="0.6">
+      <line x1="32" y1="18" x2="46" y2="18"/><line x1="46" y1="18" x2="60" y2="18"/><line x1="60" y1="18" x2="74" y2="18"/>
+      <line x1="74" y1="18" x2="88" y2="32"/><line x1="88" y1="32" x2="88" y2="46"/><line x1="88" y1="46" x2="74" y2="60"/>
+      <line x1="74" y1="60" x2="60" y2="60"/><line x1="60" y1="60" x2="46" y2="60"/><line x1="46" y1="60" x2="32" y2="60"/>
+      <line x1="32" y1="18" x2="32" y2="32"/><line x1="32" y1="32" x2="32" y2="46"/><line x1="32" y1="46" x2="32" y2="60"/>
+      <line x1="32" y1="60" x2="32" y2="74"/><line x1="32" y1="74" x2="32" y2="88"/><line x1="32" y1="88" x2="32" y2="102"/>
+      <line x1="74" y1="60" x2="88" y2="74"/><line x1="88" y1="74" x2="88" y2="88"/><line x1="88" y1="88" x2="74" y2="102"/>
+      <line x1="74" y1="102" x2="60" y2="102"/><line x1="60" y1="102" x2="46" y2="102"/><line x1="46" y1="102" x2="32" y2="102"/>
+    </g>
+    <g fill="#E8A33D">
+      <circle cx="32" cy="18" r="4.6"/><circle cx="46" cy="18" r="4.6"/><circle cx="60" cy="18" r="4.6"/><circle cx="74" cy="18" r="4.6"/>
+      <circle cx="32" cy="32" r="4.6"/><circle cx="88" cy="32" r="4.6"/>
+      <circle cx="32" cy="46" r="4.6"/><circle cx="88" cy="46" r="4.6"/>
+      <circle cx="32" cy="60" r="4.6"/><circle cx="46" cy="60" r="4.6"/><circle cx="60" cy="60" r="4.6"/><circle cx="74" cy="60" r="4.6"/>
+      <circle cx="32" cy="74" r="4.6"/><circle cx="88" cy="74" r="4.6"/>
+      <circle cx="32" cy="88" r="4.6"/><circle cx="88" cy="88" r="4.6"/>
+      <circle cx="32" cy="102" r="4.6"/><circle cx="46" cy="102" r="4.6"/><circle cx="60" cy="102" r="4.6"/><circle cx="74" cy="102" r="4.6"/>
+    </g>
+  </g>
+  <text x="150" y="76" font-family="Avenir Next, 'Century Gothic', 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="800" font-size="58" letter-spacing="-1.5" fill="#F5F2E4">bibnor</text>
+  <text x="151" y="98" font-family="'SF Mono', 'JetBrains Mono', 'Roboto Mono', Menlo, Consolas, monospace" font-weight="600" font-size="12.5" letter-spacing="2.6" fill="#B9B79D">SCHOOL MANAGEMENT, BUILT WITH AI</text>
+</svg>

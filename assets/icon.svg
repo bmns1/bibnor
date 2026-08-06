@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect x="0" y="0" width="120" height="120" rx="26" fill="#1F3D2E"/>
+  <!-- faint full 5x7 grid (the roster) -->
+  <g fill="#F1EEDD" opacity="0.16">
+    <circle cx="46" cy="32" r="1.6"/><circle cx="60" cy="32" r="1.6"/><circle cx="74" cy="32" r="1.6"/>
+    <circle cx="46" cy="46" r="1.6"/><circle cx="60" cy="46" r="1.6"/><circle cx="74" cy="46" r="1.6"/>
+    <circle cx="46" cy="74" r="1.6"/><circle cx="60" cy="74" r="1.6"/><circle cx="74" cy="74" r="1.6"/>
+    <circle cx="46" cy="88" r="1.6"/><circle cx="60" cy="88" r="1.6"/><circle cx="74" cy="88" r="1.6"/>
+    <circle cx="88" cy="18" r="1.6"/><circle cx="88" cy="60" r="1.6"/><circle cx="88" cy="102" r="1.6"/>
+  </g>
+  <!-- connectors tracing the B stroke -->
+  <g stroke="#E8A33D" stroke-width="2.2" stroke-linecap="round" opacity="0.55">
+    <line x1="32" y1="18" x2="46" y2="18"/>
+    <line x1="46" y1="18" x2="60" y2="18"/>
+    <line x1="60" y1="18" x2="74" y2="18"/>
+    <line x1="74" y1="18" x2="88" y2="32"/>
+    <line x1="88" y1="32" x2="88" y2="46"/>
+    <line x1="88" y1="46" x2="74" y2="60"/>
+    <line x1="74" y1="60" x2="60" y2="60"/>
+    <line x1="60" y1="60" x2="46" y2="60"/>
+    <line x1="46" y1="60" x2="32" y2="60"/>
+    <line x1="32" y1="18" x2="32" y2="32"/>
+    <line x1="32" y1="32" x2="32" y2="46"/>
+    <line x1="32" y1="46" x2="32" y2="60"/>
+    <line x1="32" y1="60" x2="32" y2="74"/>
+    <line x1="32" y1="74" x2="32" y2="88"/>
+    <line x1="32" y1="88" x2="32" y2="102"/>
+    <line x1="74" y1="60" x2="88" y2="74"/>
+    <line x1="88" y1="74" x2="88" y2="88"/>
+    <line x1="88" y1="88" x2="74" y2="102"/>
+    <line x1="74" y1="102" x2="60" y2="102"/>
+    <line x1="60" y1="102" x2="46" y2="102"/>
+    <line x1="46" y1="102" x2="32" y2="102"/>
+  </g>
+  <!-- the B: solid nodes -->
+  <g fill="#E8A33D">
+    <circle cx="32" cy="18" r="4.6"/><circle cx="46" cy="18" r="4.6"/><circle cx="60" cy="18" r="4.6"/><circle cx="74" cy="18" r="4.6"/>
+    <circle cx="32" cy="32" r="4.6"/><circle cx="88" cy="32" r="4.6"/>
+    <circle cx="32" cy="46" r="4.6"/><circle cx="88" cy="46" r="4.6"/>
+    <circle cx="32" cy="60" r="4.6"/><circle cx="46" cy="60" r="4.6"/><circle cx="60" cy="60" r="4.6"/><circle cx="74" cy="60" r="4.6"/>
+    <circle cx="32" cy="74" r="4.6"/><circle cx="88" cy="74" r="4.6"/>
+    <circle cx="32" cy="88" r="4.6"/><circle cx="88" cy="88" r="4.6"/>
+    <circle cx="32" cy="102" r="4.6"/><circle cx="46" cy="102" r="4.6"/><circle cx="60" cy="102" r="4.6"/><circle cx="74" cy="102" r="4.6"/>
+  </g>
+</svg>
