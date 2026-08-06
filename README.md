@@ -1,6 +1,6 @@
 # bibnor.com
 
-Temporary holding site for **Bibnor** — custom school management software, built with AI.
+Company site for **Bibnor** — custom school management software, built with AI.
 
 Live at **https://www.bibnor.com** via GitHub Pages. Contact: **info@bibnor.com**
 
