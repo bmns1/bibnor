@@ -421,12 +421,16 @@
     .board-scrim{background:linear-gradient(to bottom, color-mix(in srgb,var(--board) 82%,transparent) 0%, color-mix(in srgb,var(--board) 70%,transparent) 55%, var(--board) 100%);}
   }
   @media (max-width:560px){
-    .shell{padding-inline:20px;}
+    /* Increased base mobile margins from 20px to 32px for more breathing room */
+    .shell{padding-inline:32px;}
+    
     .pillars{grid-template-columns:1fr;}
     .band{padding:64px 0;}
     .switcher{margin-top:38px;}
     .hint{display:none;}
-    .contact{padding:34px 22px;border-radius:18px;}
+    
+    /* Matched the contact card padding to align with the new shell margins */
+    .contact{padding:34px 32px;border-radius:18px;}
   }
 </style>
 </head>
