@@ -1,18 +1,7 @@
+
 <!doctype html>
 <html lang="en">
 <head>
-
-
-
-
-
-
-
-
-
-
-
-  
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
@@ -25,53 +14,58 @@
 <meta property="og:description" content="We design and build bespoke systems for schools — admissions, attendance, timetabling, reporting — shaped around how your school already runs.">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
-<!--FRAGMENT-START-->
+
+<!-- Professional Web Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
 <title>Bibnor — custom school management software, built with AI</title>
 <style>
   /* ============================================================
      Bibnor — tokens
-     The board (hero) stays dark in both themes on purpose:
-     it is the chalkboard the whole identity is built on.
      ============================================================ */
   :root{
-    --board:#0E1F17;
-    --board-2:#16382A;
-    --board-line:#25402F;
-    --chalk:#F1EEDD;
-    --chalk-dim:#9FAE9C;
-    --accent:#E8A33D;
-    --accent-deep:#B5731F;
+    --board: #0E1F17;
+    --board-2: #16382A;
+    --board-line: #25402F;
+    --chalk: #F8F6F0; 
+    --chalk-dim: #A6B4A3;
+    --accent: #E8A33D;
+    --accent-deep: #B5731F;
 
-    --paper:#EFF0E6;
-    --paper-panel:#FFFFFF;
-    --ink:#1F3D2E;
-    --ink-soft:#3A4A3F;
-    --ink-faint:#7C8579;
-    --line:#D8D4C2;
+    --paper: #F4F5F0; 
+    --paper-panel: #FFFFFF;
+    --ink: #11261B; 
+    --ink-soft: #34463C;
+    --ink-faint: #6A756D;
+    --line: #E2DFD3;
 
-    --font-display:"Avenir Next","Century Gothic","Segoe UI",Helvetica,Arial,sans-serif;
-    --font-mono:"SF Mono","JetBrains Mono","Roboto Mono",Menlo,Consolas,monospace;
+    --font-display: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-mono: 'JetBrains Mono', "SF Mono", "Roboto Mono", monospace;
 
-    --shell:1080px;
-    --ease:cubic-bezier(.22,.61,.36,1);
+    --shell: 1080px;
+    --ease: cubic-bezier(0.16, 1, 0.3, 1); 
   }
+  
   @media (prefers-color-scheme: dark){
     :root{
-      --paper:#121A14;
-      --paper-panel:#19231B;
-      --ink:#EFEBDC;
-      --ink-soft:#C5C8BA;
-      --ink-faint:#7D8A7B;
-      --line:#293828;
+      --paper: #0B120E;
+      --paper-panel: #141C16;
+      --ink: #F4F5F0;
+      --ink-soft: #B8BCB2;
+      --ink-faint: #818D80;
+      --line: #253324;
     }
   }
+  
   :root[data-theme="dark"]{
-    --paper:#121A14; --paper-panel:#19231B; --ink:#EFEBDC;
-    --ink-soft:#C5C8BA; --ink-faint:#7D8A7B; --line:#293828;
+    --paper: #0B120E; --paper-panel: #141C16; --ink: #F4F5F0;
+    --ink-soft: #B8BCB2; --ink-faint: #818D80; --line: #253324;
   }
   :root[data-theme="light"]{
-    --paper:#EFF0E6; --paper-panel:#FFFFFF; --ink:#1F3D2E;
-    --ink-soft:#3A4A3F; --ink-faint:#7C8579; --line:#D8D4C2;
+    --paper: #F4F5F0; --paper-panel: #FFFFFF; --ink: #11261B;
+    --ink-soft: #34463C; --ink-faint: #6A756D; --line: #E2DFD3;
   }
 
   /* ---------- base ---------- */
@@ -85,6 +79,7 @@
     font-size:16px;
     line-height:1.6;
     -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
     overflow-x:hidden;
   }
   a{color:inherit;}
@@ -282,16 +277,23 @@
   .band-intro strong{color:var(--ink);font-weight:700;}
 
   /* ---------- pillars ---------- */
-  .pillars{
-    display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
-    background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+  .pillars {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px;
+    background: var(--line); 
+    border: 1px solid var(--line); 
+    border-radius: 16px; 
+    overflow: hidden;
+    box-shadow: 0 4px 24px -8px rgba(0,0,0,0.05);
   }
-  .pillar{
-    background:var(--paper-panel);padding:28px 24px 30px;
-    display:flex;flex-direction:column;gap:16px;
-    transition:background .3s var(--ease);
+  .pillar {
+    background: var(--paper-panel); 
+    padding: 32px 24px 34px;
+    display: flex; flex-direction: column; gap: 16px;
+    transition: background 0.3s var(--ease), transform 0.3s var(--ease);
   }
-  .pillar:hover{background:color-mix(in srgb,var(--accent) 5%, var(--paper-panel));}
+  .pillar:hover {
+    background: color-mix(in srgb, var(--accent) 3%, var(--paper-panel));
+  }
   .pillar svg{width:44px;height:44px;overflow:visible;}
   .pillar svg circle{transform-box:fill-box;transform-origin:center;transition:transform .35s var(--ease), opacity .35s var(--ease);}
   .pillar:hover svg .lit{transform:scale(1.5);}
@@ -1090,6 +1092,5 @@ document.documentElement.classList.add('js');
   });
 })();
 </script>
-<!--FRAGMENT-END-->
 </body>
 </html>
